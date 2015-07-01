@@ -19,10 +19,10 @@ Config = window.Config || {};
 */
 
 Config.App = {
-  id: 2496,
-  hash: '8da85b0d5bfe62527e5b244c209159c3',
+  id: 24275,
+  hash: 'ae32228fb9491554a979fa5f928f46ba',
   version: '0.4.6',
-  domains: ['web.telegram.org', 'zhukov.github.io']
+  domains: ['telegram-china.org']
 };
 
 Config.Modes = {
@@ -47,32 +47,21 @@ Config.Navigator = {
 };
 
 Config.I18n = {
-  locale: 'en-us',
+  locale: 'zh-cn',
   supported: [
-    "en-us"
-    ,"es-es"
-    ,"de-de"
-    ,"it-it"
-    ,"nl-nl"
-    ,"pt-br"
+    "zh-cn"
+    //,"es-es"
+    //,"de-de"
+    //,"it-it"
+    //,"nl-nl"
+    //,"pt-br"
     // ,"ru-ru"
   ], // To be copied to package.json
   languages: {
-    'en-us': 'English',
-    'de-de': 'Deutsch',
-    'es-es': 'Español',
-    'it-it': 'Italiano',
-    'ru-ru': 'Русский',
-    'nl-nl': 'Nederlands',
-    'pt-br': 'Português (Brazil)'
+    'zh-cn': '简体中文'
   },
   aliases: {
-    'en': 'en-us',
-    'de': 'de-de',
-    'es': 'es-es',
-    'it': 'it-it',
-    'ru': 'ru-ru',
-    'nl': 'nl-nl'
+    'zh': 'zh-cn'
   },
   messages: {},
   fallback_messages: {}
